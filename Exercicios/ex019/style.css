@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(135, 194, 194);
+
+}
+
+h1#tituloprimeiro{
+    color: blue;
+}
+h1{
+    color: azure;
+}
+h1#titulobacana{
+    color: brown;
+}
+
+.vamos{
+    color: coral;
+
+}
+
+.testando-de-novo{
+    color: forestgreen;
+}
