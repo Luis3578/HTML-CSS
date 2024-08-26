@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.principal{
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.conteudo{
+    border: 2px solid blue;
+    text-align: center;
+    flex: 70%;
+}
+
+.imagem{
+    text-align: center;
+    flex: 30%;
+}
+
+.imagem img{
+    width: 400px;
+    height: 400px;
+}
+
