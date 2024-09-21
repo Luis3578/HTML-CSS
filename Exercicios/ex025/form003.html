@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de novo de formulario</title>
+</head>
+
+<body>
+    <h1>Testando formulario</h1>
+    <form method="post" action="cadrasto.php" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" placeholder="NOME COMPLETO" autocomplete="name" required
+                maxlength="40">
+        </p>
+
+        <p>
+            <label for="imedia">Média:</label>
+            <input type="number" name="media" id="imedia" required min="0" max="10" step="0.1" autocomplete="cc-number"
+                placeholder="SUA NOTA AQUI">
+        </p>
+
+        <p>
+            <label for="imes">Periodo letivo:</label>
+            <input type="month" name="mes" id="imes" value="2024-09">
+        </p>
+
+        <p>
+            <label for="idata">Data da Prova:</label>
+            <input type="date" name="data" id="idata" value="07-07-2016">
+        </p>
+
+        <p>
+            <input type="submit" value="Confirmar">
+            <input type="reset" value="Deletar">
+        </p>
+    </form>
+</body>
+
+</html>
