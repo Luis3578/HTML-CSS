@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action="cadastro.php" autocomplete="on" method="post">
+
+        <p>
+            <label for="iestado">Estados:</label>
+            <select name="Estados" id="iestado">
+
+                <optgroup label="Estados da Paraiba">
+                    <option value="PB">Sousa</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+            </select>
+        </p>
+
+        <p>
+
+            <label for="iprofissao">Escolha sua Profissão:</label>
+            <input type="text" name="profissao" id="iprofissao" list="lista">
+            <datalist id="lista">
+                <option>Professor</option>
+                <option>Estudante</option>
+                <option>Desenvolvedor</option>
+            </datalist>
+
+        </p>
+
+        <p>
+            <label for="imsg">Menssagen</label> <br>
+            <textarea name="msg" id="imsg" placeholder="sua menssagem"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+
+</html>
