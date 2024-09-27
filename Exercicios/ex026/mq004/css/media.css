@@ -2,7 +2,28 @@
 
 /* Todas as demais medias */
 
-@media print {}
+@media print {
+    #celular {
+        display: none;
+    }
+
+    #impressora {
+        display: block;
+    }
+
+    main {
+        border: 1px solid black;
+    }
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main::after{
+        content: "Estou aprendendo desenvolvimento web";
+    }
+
+}
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
@@ -10,11 +31,11 @@
 
     }
 
-    #celular{
+    #celular {
         display: none;
     }
 
-    #impressora{
+    #impressora {
         display: block;
     }
 
@@ -22,32 +43,32 @@
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
-body{
-    background-image: url("../imagens/back-pc.jpg");
-}
+    body {
+        background-image: url("../imagens/back-pc.jpg");
+    }
 
-#celular{
-    display: none;
-}
+    #celular {
+        display: none;
+    }
 
-#pc{
-    display: block;
-}
+    #pc {
+        display: block;
+    }
 
 }
 
 @media screen and (min-width: 1200px) {
 
-body{
-    background-image: url("../imagens/back-tv.jpg");
-}
+    body {
+        background-image: url("../imagens/back-tv.jpg");
+    }
 
-#celular{
-    display: none;
-}
+    #celular {
+        display: none;
+    }
 
-#tv{
-    display: block;
-}
+    #tv {
+        display: block;
+    }
 
 }
