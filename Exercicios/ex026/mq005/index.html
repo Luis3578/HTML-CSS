@@ -11,7 +11,12 @@
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+
+        <div class="icone">
+            <img src="imagens/menu-2.png" alt="menu" onclick="clickMenu()" >
+        </div>
+
+        <menu id="menu">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -46,6 +51,11 @@
                 necessitatibus expedita sapiente quae beatae!</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            itens.style.display = "block"
+        }
+    </script>
 </body>
 
 </html>
