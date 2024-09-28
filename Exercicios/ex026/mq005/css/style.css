@@ -45,6 +45,10 @@ header h1 {
     list-style-type: none;
 }
 
+#menu ul li{
+    border: 3px solid black;
+}
+
 #menu ul li a {
     display: block;
     padding: 10px;
