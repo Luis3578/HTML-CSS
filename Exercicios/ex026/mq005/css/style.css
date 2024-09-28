@@ -17,20 +17,19 @@ header {
     background-color: gray;
 }
 
-.icone{
+#icon{
     background-color: rgb(48, 48, 48);
     text-align: center;
     padding: 10px;
+    display: block;
+    color: white;
 }
 
-.icone img {
-    width: 30px;
-    height: 30px;
-}
 
-.icone:hover{
+#icon:hover{
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.466);
+    color: black;
 }
 
 header h1 {
